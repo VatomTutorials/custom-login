@@ -1,0 +1,129 @@
+{
+    "features": {
+        "auth": {
+            "ssoProviders": [
+            	"metamask",
+            	"phantom",
+            	"slack",
+            	"facebook",
+            	"google",
+            	"linkedin",
+            	"apple"
+            ]
+        }
+    },
+    "theme": {
+        "header": {
+            "logo": {
+                "url": "https://resources.vatom.com/3UewHF0ge9/1-test.png",
+                "style": {
+                    "zIndex": 1,
+                    "marginTop": "2.5rem",
+                    "marginBottom": "2.5rem",
+                    "display": "none"
+                }
+            },
+            "title": {
+                "style": {
+                    "color": "#003C80",
+                    "background": "url('https://resources.vatom.com/3UewHF0ge9/1610aae0-d4df-11ed-a23d-cd29468e6191.jpg')",
+                    "backgroundSize": "cover",
+                    "backgroundRepeat": "no-repeat",
+                    "background-position-y": "30%",
+                    "position": "absolute",
+                    "top": 0,
+                    "paddingTop": "20rem",
+                    "paddingBottom": "2rem",
+                    "fontSize": "48px",
+                    "textTransform": "uppercase",
+                    "left": 0,
+                    "right": 0,
+                    "lineHeight": "48px",
+                    "textAlign": "center",
+                    "fontWeight": "bold",
+                    "letterSpacing": "4px",
+                    "zIndex": -1,
+                    "fontStyle": "normal"
+                }
+            }
+        },
+        "button": {
+            "style": {
+                "backgroundColor": "#003C80",
+                "color": "white",
+                "fontSize": "16px",
+                "fontWeight": 600,
+                "lineHeight": "16px",
+                "fontStyle": "normal",
+                "textTransform": "none",
+                "height": "15%",
+                "width": "80%",
+                "borderRadius": "32px",
+                "justifyContent": "center",
+                "textAlign": "center",
+                "marginTop": "3.5rem",
+                "fontFamily": "FONTSPRING DEMO - Florian Black"
+            }
+        },
+        "label": {
+            "style": {
+                "color": "#003C80",
+                "marginTop": "16rem",
+                "textAlign": "start",
+                "fontSize": "16px"
+            }
+        },
+        "background": {
+            "style": {
+                "background": "url('https://resources.vatom.com/3UewHF0ge9/1610aae0-d4df-11ed-a23d-cd29468e6191.jpg')",
+                "backgroundSize": "cover",
+                "backgroundRepeat": "no-repeat",
+                "background-position-y": "70%"
+            }
+        },
+        "input": {
+            "style": {
+                "borderTop": 0,
+                "borderLeft": 0,
+                "borderRight": 0,
+                "borderBottom": "1px solid #014B9F",
+                "float": "left",
+                "width": "100%"
+            }
+        },
+        "a": {
+            "style": {
+                "color": "#003C80 !important"
+            }
+        },
+        "card": {
+            "style": {
+                "backgroundColor": "transparent",
+                "marginTop": "10rem",
+                "border": 0,
+                "justifyContent": "center",
+                "textAlign": "center"
+            }
+        },
+        "implicitTerms": {
+            "style": {
+                "color": "#003C80",
+                "lineHeight": "20px",
+                "maxWidth": "90%",
+                "fontSize": "14px"
+            }
+        },
+        "footer": {
+            "style": {
+                "color": "#003C80"
+            }
+        }
+    },
+    "text": {
+        "AUTH_TERMS": "By Signing in I agree to Vatom Inc. [Terms of Service]($0) and [Privacy Policy]($1); I confirm that I am 18 years of age or older.",
+        "SIGN_IN": "Sign in",
+        "SEND_MAGIC_CODE": "Send Code",
+        "MAGIC_AUTH_INPUT_PLACEHOLDER": "e.g. / + 1 123 456 7890",
+        "MAGIC_AUTH_INPUT_LABEL": "Mobile number"
+    }
+}
